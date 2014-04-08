@@ -39,18 +39,20 @@ categories: 读书笔记
 
 ####类别  
 1. 类声明格式
-		
-		@interface NSString(NumberConvenience)
 
-		-(NSNumber*)lengthAsNumber;
+```
+@interface NSString(NumberConvenience)
 
-		@end
+-(NSNumber*)lengthAsNumber;
 
-1. 类别的局限性：  
+@end
+```
+
+2. 类别的局限性：  
 	* 无法向类中添加新的实例变量。类别没有位置容纳实例变量。  
 	* 名称冲突，即类别中的方法与现有的方法重名。当发生名称冲突是，类别具有更高的优先级。类别方法将完全取代初始方法，从而无法在使用初始方法。
 
-2. 类别的作用
+3. 类别的作用
 	* 将类的实现分散到多个不同文件或多个不同框架中。
 	* 创建对私有方法的前向引用。
 	* 向对象添加非正式协议。  
@@ -63,10 +65,11 @@ categories: 读书笔记
 	是一个命名的方法列表。与非正式协议不同，正式协议要求显式地采用协议。采用协议的方法是在类的
 `@interface`声明中列出协议的名称。
 
-2. 协议声明的格式：  
+2. 协议声明的格式:
 
-		@protocol NSCoping
+```
+@protocol NSCoping
 	
-		-(id)copyWithZone:(NsZone*) zone;
-
+-(id)copyWithZone:(NsZone*) zone;
+```
 	
