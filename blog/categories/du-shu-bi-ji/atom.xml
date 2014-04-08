@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[muyexi's blog]]></title>
-  <link href="http://muyexi.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 读书笔记 | muyexi's blog]]></title>
+  <link href="http://muyexi.github.io/blog/categories/du-shu-bi-ji/atom.xml" rel="self"/>
   <link href="http://muyexi.github.io/"/>
   <updated>2014-04-08T22:36:18+08:00</updated>
   <id>http://muyexi.github.io/</id>
@@ -158,51 +158,6 @@
 <li>无论如何，都不要也不应该用别人的错误惩罚自己，那么做不仅不对，并且愚蠢。</li>
 </ul>
 </blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[AFNetworking Parse JSON Unescaped Control Character]]></title>
-    <link href="http://muyexi.github.io/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character/"/>
-    <updated>2014-04-08T21:07:16+08:00</updated>
-    <id>http://muyexi.github.io/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character</id>
-    <content type="html"><![CDATA[<p> 1.Add <a href="http://stackoverflow.com/a/13741652/2122622">chandan&rsquo;s method</a></p>
-
-<pre><code>removeUnescapedCharacter
-</code></pre>
-
-<p> to class</p>
-
-<pre><code>AFURLResponseSerialization
-</code></pre>
-
-<p> in AFNetworking 2.0.</p>
-
-<p> 2.Add</p>
-
-<pre><code>responseString = [self removeUnescapedCharacter:responseString];
-</code></pre>
-
-<p>under</p>
-
-<pre><code>NSString *responseString = [[NSString alloc] initWithData:data encoding:stringEncoding];
-</code></pre>
-
-<p>in method</p>
-
-<pre><code>- (id)responseObjectForResponse:(NSURLResponse *)response
-                       data:(NSData *)data
-                      error:(NSError *__autoreleasing *)error
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IllegalArgumentException Illegal Character in Query at Index]]></title>
-    <link href="http://muyexi.github.io/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index/"/>
-    <updated>2014-04-08T21:05:10+08:00</updated>
-    <id>http://muyexi.github.io/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index</id>
-    <content type="html"><![CDATA[<p>检查下请求连接是否带有空格</p>
 ]]></content>
   </entry>
   
