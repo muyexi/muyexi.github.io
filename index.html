@@ -134,14 +134,23 @@
 <h4>类别</h4>
 
 <ol>
-<li><p>类声明格式</p>
+<li>类声明格式</li>
+</ol>
 
-<pre><code> @interface NSString(NumberConvenience)
 
- -(NSNumber*)lengthAsNumber;
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@interface NSString(NumberConvenience)
+</span><span class='line'>
+</span><span class='line'>-(NSNumber*)lengthAsNumber;
+</span><span class='line'>
+</span><span class='line'>@end</span></code></pre></td></tr></table></div></figure>
 
- @end
-</code></pre></li>
+
+<ol>
 <li><p>类别的局限性：</p>
 
 <ul>
@@ -170,13 +179,18 @@
 <li><p>正式协议<br/>
  是一个命名的方法列表。与非正式协议不同，正式协议要求显式地采用协议。采用协议的方法是在类的
 <code>@interface</code>声明中列出协议的名称。</p></li>
-<li><p>协议声明的格式：</p>
-
-<pre><code> @protocol NSCoping
-
- -(id)copyWithZone:(NsZone*) zone;
-</code></pre></li>
+<li><p>协议声明的格式:</p></li>
 </ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@protocol NSCoping
+</span><span class='line'>  
+</span><span class='line'>-(id)copyWithZone:(NsZone*) zone;</span></code></pre></td></tr></table></div></figure>
+
+
 
 </div>
   

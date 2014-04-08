@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 读书笔记 | muyexi's blog]]></title>
   <link href="http://muyexi.github.io/blog/categories/du-shu-bi-ji/atom.xml" rel="self"/>
   <link href="http://muyexi.github.io/"/>
-  <updated>2014-04-08T22:36:18+08:00</updated>
+  <updated>2014-04-08T23:52:50+08:00</updated>
   <id>http://muyexi.github.io/</id>
   <author>
     <name><![CDATA[muyexi]]></name>
@@ -59,14 +59,19 @@
 <h4>类别</h4>
 
 <ol>
-<li><p>类声明格式</p>
+<li>类声明格式</li>
+</ol>
 
-<pre><code> @interface NSString(NumberConvenience)
 
- -(NSNumber*)lengthAsNumber;
+<p>```
+@interface NSString(NumberConvenience)</p>
 
- @end
-</code></pre></li>
+<p>&ndash;(NSNumber*)lengthAsNumber;</p>
+
+<p>@end
+```</p>
+
+<ol>
 <li><p>类别的局限性：</p>
 
 <ul>
@@ -95,14 +100,15 @@
 <li><p>正式协议<br/>
  是一个命名的方法列表。与非正式协议不同，正式协议要求显式地采用协议。采用协议的方法是在类的
 <code>@interface</code>声明中列出协议的名称。</p></li>
-<li><p>协议声明的格式：</p>
-
-<pre><code> @protocol NSCoping
-
- -(id)copyWithZone:(NsZone*) zone;
-</code></pre></li>
+<li><p>协议声明的格式:</p></li>
 </ol>
 
+
+<p>```
+@protocol NSCoping</p>
+
+<p>&ndash;(id)copyWithZone:(NsZone*) zone;
+```</p>
 ]]></content>
   </entry>
   
