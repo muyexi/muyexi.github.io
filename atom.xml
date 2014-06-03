@@ -1,121 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>muyexi's blog</title>
-  <meta name="author" content="muyexi">
-
-  
-  <meta name="description" content="iOS开发 iOS-Blog
-NSHipster
-NSBlog
-Xcode Dev
-iOS init
-Cocoa with Love
-answer_huang
-Ted
-唐巧的技术博客
-iPhone &amp; Mac Development
-Matt Gemmell
-Think &amp; &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://muyexi.github.io">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="muyexi's blog" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-46981806-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">muyexi's blog</a></h1>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:muyexi.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[muyexi's blog]]></title>
+  <link href="http://muyexi.github.io/atom.xml" rel="self"/>
+  <link href="http://muyexi.github.io/"/>
+  <updated>2014-06-04T00:53:43+08:00</updated>
+  <id>http://muyexi.github.io/</id>
+  <author>
+    <name><![CDATA[muyexi]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2014/05/25/share-my-rss-subscriptions/">Share My Rss Subscriptions</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2014-05-25T00:00:00+08:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>iOS开发</h3>
+  <entry>
+    <title type="html"><![CDATA[Share My Rss Subscriptions]]></title>
+    <link href="http://muyexi.github.io/blog/2014/05/25/share-my-rss-subscriptions/"/>
+    <updated>2014-05-25T00:00:00+08:00</updated>
+    <id>http://muyexi.github.io/blog/2014/05/25/share-my-rss-subscriptions</id>
+    <content type="html"><![CDATA[<h3>iOS开发</h3>
 
 <ul>
 <li><a href="http://feeds.feedburner.com/iosdevblog">iOS-Blog</a></li>
@@ -190,42 +93,15 @@ Think &amp; &hellip;">
 <li><a href="http://tumutanzi.com/feed">土木坛子</a></li>
 </ul>
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/08/learn-objective-c-on-the-mac/">《Objective-C基础教程》读书笔记</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-08T21:13:10+08:00" pubdate data-updated="true">Apr 8<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h5>Objective-C基础</h5>
+  <entry>
+    <title type="html"><![CDATA[《Objective-C基础教程》读书笔记]]></title>
+    <link href="http://muyexi.github.io/blog/2014/04/08/learn-objective-c-on-the-mac/"/>
+    <updated>2014-04-08T21:13:10+08:00</updated>
+    <id>http://muyexi.github.io/blog/2014/04/08/learn-objective-c-on-the-mac</id>
+    <content type="html"><![CDATA[<h5>Objective-C基础</h5>
 
 <ol>
 <li><p>Cocoa对其所有函数，常量和类型名称都添加来NS前缀。该前缀表明函数来自Cocoa而不是其他工具包。</p></li>
@@ -324,42 +200,15 @@ Think &amp; &hellip;">
 
 
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/08/be-friend-with-time/">《和时间做朋友》读书笔记</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-08T21:10:51+08:00" pubdate data-updated="true">Apr 8<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h5>思考我们的语言</h5>
+  <entry>
+    <title type="html"><![CDATA[《和时间做朋友》读书笔记]]></title>
+    <link href="http://muyexi.github.io/blog/2014/04/08/be-friend-with-time/"/>
+    <updated>2014-04-08T21:10:51+08:00</updated>
+    <id>http://muyexi.github.io/blog/2014/04/08/be-friend-with-time</id>
+    <content type="html"><![CDATA[<h5>思考我们的语言</h5>
 
 <p>语言代表了一种思维方式，它有时会误导我们，导致我们在使用语言的过程中反而忘记了事物的真正含义。</p>
 
@@ -406,42 +255,15 @@ Think &amp; &hellip;">
 <li>无论如何，都不要也不应该用别人的错误惩罚自己，那么做不仅不对，并且愚蠢。</li>
 </ul>
 </blockquote>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character/">AFNetworking Parse JSON Unescaped Control Character</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-08T21:07:16+08:00" pubdate data-updated="true">Apr 8<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p> 1.Add <a href="http://stackoverflow.com/a/13741652/2122622">chandan&rsquo;s method</a></p>
+  <entry>
+    <title type="html"><![CDATA[AFNetworking Parse JSON Unescaped Control Character]]></title>
+    <link href="http://muyexi.github.io/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character/"/>
+    <updated>2014-04-08T21:07:16+08:00</updated>
+    <id>http://muyexi.github.io/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character</id>
+    <content type="html"><![CDATA[<p> 1.Add <a href="http://stackoverflow.com/a/13741652/2122622">chandan&rsquo;s method</a></p>
 
 <pre><code>removeUnescapedCharacter
 </code></pre>
@@ -469,169 +291,16 @@ Think &amp; &hellip;">
                        data:(NSData *)data
                       error:(NSError *__autoreleasing *)error
 </code></pre>
-</div>
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[IllegalArgumentException Illegal Character in Query at Index]]></title>
+    <link href="http://muyexi.github.io/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index/"/>
+    <updated>2014-04-08T21:05:10+08:00</updated>
+    <id>http://muyexi.github.io/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index</id>
+    <content type="html"><![CDATA[<p>检查下请求连接是否带有空格</p>
+]]></content>
+  </entry>
   
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index/">IllegalArgumentException Illegal Character in Query at Index</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-08T21:05:10+08:00" pubdate data-updated="true">Apr 8<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>检查下请求连接是否带有空格</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/05/25/share-my-rss-subscriptions/">Share My Rss Subscriptions</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/04/08/learn-objective-c-on-the-mac/">《Objective-C基础教程》读书笔记</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/04/08/be-friend-with-time/">《和时间做朋友》读书笔记</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character/">AFNetworking Parse JSON Unescaped Control Character</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index/">IllegalArgumentException Illegal Character in Query at Index</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/muyexi">@muyexi</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'muyexi',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>On Delicious</h1>
-  <div id="delicious"></div>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/muyexi?count=3&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
-  <p><a href="http://delicious.com/muyexi">My Delicious Bookmarks &raquo;</a></p>
-</section>
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - muyexi -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'muyexi';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 读书笔记 | muyexi's blog]]></title>
+  <link href="http://muyexi.github.io/blog/categories/du-shu-bi-ji/atom.xml" rel="self"/>
+  <link href="http://muyexi.github.io/"/>
+  <updated>2014-06-04T00:53:43+08:00</updated>
+  <id>http://muyexi.github.io/</id>
+  <author>
+    <name><![CDATA[muyexi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[《Objective-C基础教程》读书笔记]]></title>
+    <link href="http://muyexi.github.io/blog/2014/04/08/learn-objective-c-on-the-mac/"/>
+    <updated>2014-04-08T21:13:10+08:00</updated>
+    <id>http://muyexi.github.io/blog/2014/04/08/learn-objective-c-on-the-mac</id>
+    <content type="html"><![CDATA[<h5>Objective-C基础</h5>
+
+<ol>
+<li><p>Cocoa对其所有函数，常量和类型名称都添加来NS前缀。该前缀表明函数来自Cocoa而不是其他工具包。</p></li>
+<li><p>@符号是Objective-C在标准C语言基础上添加的特性之一。双引号中打字符串前有一个@符号，这表示引用的字符串应该作为Cocoa的NSString元素来处理。</p></li>
+<li><p>Objective-C中的<code>BOOL</code>实际上是一种对带符号的字符类型（<code>signed char</code>）的定义（typedef），它使用8位存储空间。YES定义为1，NO定义为0（使用<code>#define</code>）。</p></li>
+<li><p>Objective-C中所有对象间的交互都是通过指针实现的。</p></li>
+<li><p>导入头文件的两种不同的方法：</p>
+
+<ul>
+<li><code>#import &lt;Cocoa/Cocoa.h&gt;</code>,用于导入系统头文件。</li>
+<li><code>#import “Tire.h”</code>,导入项目本地的头文件。</li>
+</ul>
+</li>
+<li><p>比较字符串时，应该使用<code>isEqualToString</code>；==只判断字符串的指针数值。</p></li>
+<li><p>如果在声明方法时添加来加号，那么该方法就是类方法。</p></li>
+<li><p>Objective-C运行时生成一个类的时候，会创建一个代表该类的类对象。类对象包含了指向超类的指针，类名和指向类方法列表的指针。类对象还包含一个<code>long</code>型的数据，为新创建的类实例对象指定大小（以字节为单位）。</p></li>
+<li><p>NSArray只能存储Objective-C的对象，而不能存储C语言中的基本数据类型和nil（对象的零值或NULL值）。</p></li>
+</ol>
+
+
+<h5>Cocoa内存管理</h5>
+
+<ol>
+<li><p>当你使用new，alloc或copy方法获得一个对象，其保留计数器值为1，需要安排该对象的死亡，通常使用release消息实现。
+当你使用任何其他方法获得一个对象时，则不需要关心如何销毁该对象。
+如果保留某个对象，则必须保持retain方法和release方法的使用次数相等。</p></li>
+<li><p>当对象接收到autorelease消息时，该对象被放入NSAutoreleasePool中。当自动释放池被销毁时，会向池中的对象发送release消息，所有被自动释放的对象都将其保留计数器减1。如果保留计数器值归0，则对象被销毁。</p></li>
+<li><p>对象初始化</p>
+
+<ul>
+<li>如果在初始化对象时出现问题，则init方法可能返回nil。</li>
+<li>如果构造了一个初始化函数，则一定要在你自己的指定初始化函数中调用超类的指定初始化函数。</li>
+</ul>
+</li>
+</ol>
+
+
+<h4>类别</h4>
+
+<ol>
+<li>类声明格式</li>
+</ol>
+
+
+<p>```
+@interface NSString(NumberConvenience)</p>
+
+<p>&ndash;(NSNumber*)lengthAsNumber;</p>
+
+<p>@end
+```</p>
+
+<ol>
+<li><p>类别的局限性：</p>
+
+<ul>
+<li>无法向类中添加新的实例变量。类别没有位置容纳实例变量。</li>
+<li>名称冲突，即类别中的方法与现有的方法重名。当发生名称冲突是，类别具有更高的优先级。类别方法将完全取代初始方法，从而无法在使用初始方法。</li>
+</ul>
+</li>
+<li><p>类别的作用</p>
+
+<ul>
+<li>将类的实现分散到多个不同文件或多个不同框架中。</li>
+<li>创建对私有方法的前向引用。</li>
+<li>向对象添加非正式协议。</li>
+</ul>
+</li>
+</ol>
+
+
+<h4>委托</h4>
+
+<p>委托是一种对象，另一个类的对象会要求委托对象执行它的某些操作。</p>
+
+<h4>协议</h4>
+
+<ol>
+<li><p>正式协议<br/>
+ 是一个命名的方法列表。与非正式协议不同，正式协议要求显式地采用协议。采用协议的方法是在类的
+<code>@interface</code>声明中列出协议的名称。</p></li>
+<li><p>协议声明的格式:</p></li>
+</ol>
+
+
+<p>```
+@protocol NSCoping</p>
+
+<p>&ndash;(id)copyWithZone:(NsZone*) zone;
+```</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[《和时间做朋友》读书笔记]]></title>
+    <link href="http://muyexi.github.io/blog/2014/04/08/be-friend-with-time/"/>
+    <updated>2014-04-08T21:10:51+08:00</updated>
+    <id>http://muyexi.github.io/blog/2014/04/08/be-friend-with-time</id>
+    <content type="html"><![CDATA[<h5>思考我们的语言</h5>
+
+<p>语言代表了一种思维方式，它有时会误导我们，导致我们在使用语言的过程中反而忘记了事物的真正含义。</p>
+
+<blockquote><ul>
+<li>认为急功近利是一个贬义词，多少是有些肤浅的。其实，急功近利是所有人的本性，只不过，只有少数人最终通过 心智的力量彻底想清楚了，事实上急功近利往往是一个风险高于回报的行为模式。</li>
+<li>自卑原本只不过是正常的感受，只不过是被定义成负面了而已。同样的道理，如果认真思考，我们会发现即便所谓的“虚荣”都是每个人再自然不过的愿望，却同样被定义为负面。其实，只要在不伤害他人，损害他人利益的情况下，对自己身上的缺点大可不必苛求。</li>
+</ul>
+</blockquote>
+
+<h5>控制自己的大脑</h5>
+
+<blockquote><p>为什么人们会很自然地产生急功近利的想法呢？原因在于，我们的大脑倾向于低估未来回报的价值，同时，倾向于高估当前回报的价值。</p></blockquote>
+
+<h5>关于交友</h5>
+
+<blockquote><p>当你在决定是否给别人提供帮助的时候，要考虑他是否值得帮助？</p></blockquote>
+
+<h5>关于耐心</h5>
+
+<blockquote><ul>
+<li>如果啰唆竟然真的起了作用，哪怕招人厌烦也居然可能是令自己愉悦的厌烦。教书的经历使我养成了在必要的时候甘于啰唆的习惯；而其根本原因，只不过是我发现了耐心的好处；了解耐心的好处，就不得不投入大量的时间——与投入的时间相比，聪明、勤奋之类的因素实在是微不足道。</li>
+<li>懒惰，是缺乏耐心而不能运用心智去展望未来。草率，是缺乏耐心而不愿投入时间精力去认真地调查研究。肤浅，是缺乏耐心而不能运用心智深入思考。</li>
+</ul>
+</blockquote>
+
+<h5>万事皆可准备,这才是幸与不幸的根源</h5>
+
+<blockquote><ul>
+<li>人们总是说，笨鸟先飞，其实，有很多鸟之所以先飞也许并不是因为它们笨，相反，更可能是因为它们更聪明。</li>
+<li>所谓的幸运就是当你准备好了的时候机会来了。</li>
+<li>我一直认为，在学习、工作上，一个人在某方面的能力究竟有多大，几乎直接取决于此人能在那方面提前多久进行过准备。</li>
+<li>记住，意外总是发生绝对不是因为你的运气格外差，而往往只不过是因为你考虑得不够周全。</li>
+</ul>
+</blockquote>
+
+<h5>还有命运</h5>
+
+<blockquote><p>在真正能够理解混沌理论的人的心目中，所谓的命运就有了另外的解释。初始条件的差异，造成了最终天壤之别的结果。</p></blockquote>
+
+<h5>其他</h5>
+
+<blockquote><ul>
+<li>生活的智慧就在于，集中精力改变那些能够改变的，而把那些不能改变的暂时忽略掉。</li>
+<li>无论如何，都不要也不应该用别人的错误惩罚自己，那么做不仅不对，并且愚蠢。</li>
+</ul>
+</blockquote>
+]]></content>
+  </entry>
+  
+</feed>

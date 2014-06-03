@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Android | muyexi's blog]]></title>
+  <link href="http://muyexi.github.io/blog/categories/android/atom.xml" rel="self"/>
+  <link href="http://muyexi.github.io/"/>
+  <updated>2014-06-04T00:53:43+08:00</updated>
+  <id>http://muyexi.github.io/</id>
+  <author>
+    <name><![CDATA[muyexi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[IllegalArgumentException Illegal Character in Query at Index]]></title>
+    <link href="http://muyexi.github.io/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index/"/>
+    <updated>2014-04-08T21:05:10+08:00</updated>
+    <id>http://muyexi.github.io/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index</id>
+    <content type="html"><![CDATA[<p>检查下请求连接是否带有空格</p>
+]]></content>
+  </entry>
+  
+</feed>
