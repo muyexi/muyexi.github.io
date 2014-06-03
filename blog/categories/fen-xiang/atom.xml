@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 分享 | muyexi's blog]]></title>
+  <link href="http://muyexi.im/blog/categories/fen-xiang/atom.xml" rel="self"/>
+  <link href="http://muyexi.im/"/>
+  <updated>2014-06-04T02:24:59+08:00</updated>
+  <id>http://muyexi.im/</id>
+  <author>
+    <name><![CDATA[muyexi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Share My RSS Subscriptions]]></title>
+    <link href="http://muyexi.im/blog/2014/05/25/share-my-rss-subscriptions/"/>
+    <updated>2014-05-25T18:14:55+08:00</updated>
+    <id>http://muyexi.im/blog/2014/05/25/share-my-rss-subscriptions</id>
+    <content type="html"><![CDATA[<h3>iOS开发</h3>
+
+<ul>
+<li><a href="http://feeds.feedburner.com/iosdevblog">iOS-Blog</a></li>
+<li><a href="http://nshipster.com/feed.xml">NSHipster</a></li>
+<li><a href="http://www.mikeash.com/pyblog/rss.py">NSBlog</a></li>
+<li><a href="http://blog.xcodev.com/atom.xml">Xcode Dev</a></li>
+<li><a href="http://iosinit.com/?feed=rss2">iOS init</a></li>
+<li><a href="http://cocoawithlove.com/feeds/posts/default">Cocoa with Love</a></li>
+<li><a href="http://answerhuang.duapp.com/index.php/feed/">answer_huang</a></li>
+<li><a href="http://wufawei.com/feed/">Ted</a></li>
+<li><a href="http://blog.devtang.com/atom.xml">唐巧的技术博客</a></li>
+<li><a href="http://iphonedevelopment.blogspot.com/feeds/posts/default">iPhone &amp; Mac Development</a></li>
+<li><a href="http://feeds.feedburner.com/mattgemmell/rss2">Matt Gemmell</a></li>
+<li><a href="http://www.thinkandbuild.it/feed/">Think &amp; Build</a></li>
+<li><a href="http://www.isaced.com/feed/">isaced</a></li>
+<li><a href="http://blog.t-xx.me/atom.xml">txx&rsquo;s blog</a></li>
+<li><a href="http://www.objc.io/feed.xml">objc.io</a></li>
+<li><a href="http://petersteinberger.com/atom.xml">Peter Steinberger</a></li>
+</ul>
+
+
+<h3>前端开发</h3>
+
+<ul>
+<li><a href="http://isd.tencent.com/?feed=rss2">腾讯ISUX &ndash; 社交用户体验设计 &ndash; Better Experien&hellip;</a></li>
+<li><a href="http://www.css88.com/feed">WEB前端开发</a></li>
+<li><a href="http://lifesinger.wordpress.com/feed/">岁月如歌</a></li>
+<li><a href="http://uedc.163.com/rss">网易用户体验设计中心博客</a></li>
+<li><a href="http://mux.baidu.com/?feed=rss2">百度MUX</a></li>
+<li><a href="http://ued.taobao.com/blog/feed/">TaoBaoUED</a></li>
+<li><a href="http://www.alloyteam.com/feed/">腾讯Web前端 AlloyTeam 团队 Blog | 愿景: 成为业&hellip;</a></li>
+<li><a href="http://hax.javaeye.com/rss">hax的技术部落格</a></li>
+<li><a href="http://cdc.tencent.com/?feed=rss2">腾讯CDC</a></li>
+<li><a href="http://www.cssforest.org/blog/index.php?atom=1">CSS森林(CSS Forest)</a></li>
+<li><a href="http://feeds.feedburner.com/paul-irish">Paul Irish</a></li>
+<li><a href="http://www.qianduan.net/feed">前端观察</a></li>
+</ul>
+
+
+<h3>Android开发</h3>
+
+<ul>
+<li><a href="http://daniel-codes.blogspot.com/feeds/posts/default">Daniel Lew&rsquo;s Coding Thoughts</a></li>
+<li><a href="http://cyrilmottier.com/atom.xml">Cyril Mottier</a></li>
+<li><a href="http://chris.banes.me/atom.xml">Chris  Banes</a></li>
+<li><a href="http://android-developers.blogspot.com/atom.xml">Android Developers Blog</a></li>
+</ul>
+
+
+<h3>程序员博客-英文</h3>
+
+<ul>
+<li><a href="http://blog.binchen.org/rss.xml">Chen&rsquo;s blog</a></li>
+<li><a href="http://www.codesimplicity.com/feed/atom/">Code Simplicity</a></li>
+<li><a href="http://feeds.feedburner.com/codinghorror/">Coding Horror</a></li>
+<li><a href="http://coenraets.org/blog/feed/">Christophe Coenraets</a></li>
+<li><a href="http://www.joelonsoftware.com/rss.xml">Joel on Software</a></li>
+</ul>
+
+
+<h3>程序员博客-中文</h3>
+
+<ul>
+<li><a href="http://tiny4.org/blog/feed/">Tinyfool的Blog</a></li>
+<li><a href="http://blog.youxu.info/feed/">4G spaces</a></li>
+<li><a href="http://feeds2.feedburner.com/programthink">编程随想的博客</a></li>
+<li><a href="http://feeds.feedburner.com/ruanyifeng">阮一峰的网络日志</a></li>
+<li><a href="http://freemind.pluskid.org/rss.xml">Free Mind</a></li>
+<li><a href="http://ibuick.me/?feed=rss2">ibuick.me | ibuick.me</a></li>
+<li><a href="http://mindhacks.cn/feed/">刘未鹏 | Mind Hacks</a></li>
+<li><a href="http://feeds.feedburner.com/yurii">乱象，印迹</a></li>
+<li><a href="http://feeds.feedburner.com/tualatrix">I&rsquo;m TualatriX</a></li>
+<li><a href="http://feed.lucifr.com">Lucifr</a></li>
+<li><a href="http://www.yangzhiping.com/psy/feed">阳志平的网志-心理学类</a></li>
+<li><a href="http://coolshell.cn/feed">酷壳 &ndash; CoolShell.cn</a></li>
+<li><a href="http://robbin.javaeye.com/rss">robbin的自言自语</a></li>
+<li><a href="http://www.xiaozhou.net/atom.xml">iTimothy</a></li>
+<li><a href="http://luolei.org/feed/">罗磊的独立博客</a></li>
+<li><a href="http://www.yangzhiping.com/tech/feed">阳志平的网志-技术类</a></li>
+</ul>
+
+
+<h3>其他博客</h3>
+
+<ul>
+<li><a href="http://ttt.tt/feed/">通天塔</a></li>
+<li><a href="http://luoyonghao.blog.163.com/rss/">罗永浩的博客</a></li>
+<li><a href="http://yushicun.blog.21ccom.net/?feed=rss2">余世存的共识网·思想者博客</a></li>
+<li><a href="http://feeds.feedburner.com/bfishadow">大智若鱼</a></li>
+<li><a href="http://xiaolai.li/feed/">Reborn Again</a></li>
+<li><a href="http://www.jack-liu.com/rss.php">Jack Liu博客-RSS订阅</a></li>
+<li><a href="http://tumutanzi.com/feed">土木坛子</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
