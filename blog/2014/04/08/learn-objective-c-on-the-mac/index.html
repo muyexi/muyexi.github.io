@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>《Objective-C基础教程》读书笔记 - muyexi's blog</title>
+  <meta name="author" content="muyexi">
+
+  
+  <meta name="description" content="Objective-C基础 Cocoa对其所有函数，常量和类型名称都添加来NS前缀。该前缀表明函数来自Cocoa而不是其他工具包。
+@符号是Objective-C在标准C语言基础上添加的特性之一。双引号中打字符串前有一个@符号，这表示引用的字符串应该作为Cocoa的NSString元素来处理。 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://muyexi.github.io/blog/2014/04/08/learn-objective-c-on-the-mac">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="muyexi's blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-46981806-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">muyexi's blog</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:muyexi.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">《Objective-C基础教程》读书笔记</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-08T21:13:10+08:00" pubdate data-updated="true">Apr 8<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h5>Objective-C基础</h5>
+
+<ol>
+<li><p>Cocoa对其所有函数，常量和类型名称都添加来NS前缀。该前缀表明函数来自Cocoa而不是其他工具包。</p></li>
+<li><p>@符号是Objective-C在标准C语言基础上添加的特性之一。双引号中打字符串前有一个@符号，这表示引用的字符串应该作为Cocoa的NSString元素来处理。</p></li>
+<li><p>Objective-C中的<code>BOOL</code>实际上是一种对带符号的字符类型（<code>signed char</code>）的定义（typedef），它使用8位存储空间。YES定义为1，NO定义为0（使用<code>#define</code>）。</p></li>
+<li><p>Objective-C中所有对象间的交互都是通过指针实现的。</p></li>
+<li><p>导入头文件的两种不同的方法：</p>
+
+<ul>
+<li><code>#import &lt;Cocoa/Cocoa.h&gt;</code>,用于导入系统头文件。</li>
+<li><code>#import “Tire.h”</code>,导入项目本地的头文件。</li>
+</ul>
+</li>
+<li><p>比较字符串时，应该使用<code>isEqualToString</code>；==只判断字符串的指针数值。</p></li>
+<li><p>如果在声明方法时添加来加号，那么该方法就是类方法。</p></li>
+<li><p>Objective-C运行时生成一个类的时候，会创建一个代表该类的类对象。类对象包含了指向超类的指针，类名和指向类方法列表的指针。类对象还包含一个<code>long</code>型的数据，为新创建的类实例对象指定大小（以字节为单位）。</p></li>
+<li><p>NSArray只能存储Objective-C的对象，而不能存储C语言中的基本数据类型和nil（对象的零值或NULL值）。</p></li>
+</ol>
+
+
+<h5>Cocoa内存管理</h5>
+
+<ol>
+<li><p>当你使用new，alloc或copy方法获得一个对象，其保留计数器值为1，需要安排该对象的死亡，通常使用release消息实现。
+当你使用任何其他方法获得一个对象时，则不需要关心如何销毁该对象。
+如果保留某个对象，则必须保持retain方法和release方法的使用次数相等。</p></li>
+<li><p>当对象接收到autorelease消息时，该对象被放入NSAutoreleasePool中。当自动释放池被销毁时，会向池中的对象发送release消息，所有被自动释放的对象都将其保留计数器减1。如果保留计数器值归0，则对象被销毁。</p></li>
+<li><p>对象初始化</p>
+
+<ul>
+<li>如果在初始化对象时出现问题，则init方法可能返回nil。</li>
+<li>如果构造了一个初始化函数，则一定要在你自己的指定初始化函数中调用超类的指定初始化函数。</li>
+</ul>
+</li>
+</ol>
+
+
+<h4>类别</h4>
+
+<ol>
+<li>类声明格式</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@interface NSString(NumberConvenience)
+</span><span class='line'>
+</span><span class='line'>-(NSNumber*)lengthAsNumber;
+</span><span class='line'>
+</span><span class='line'>@end</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li><p>类别的局限性：</p>
+
+<ul>
+<li>无法向类中添加新的实例变量。类别没有位置容纳实例变量。</li>
+<li>名称冲突，即类别中的方法与现有的方法重名。当发生名称冲突是，类别具有更高的优先级。类别方法将完全取代初始方法，从而无法在使用初始方法。</li>
+</ul>
+</li>
+<li><p>类别的作用</p>
+
+<ul>
+<li>将类的实现分散到多个不同文件或多个不同框架中。</li>
+<li>创建对私有方法的前向引用。</li>
+<li>向对象添加非正式协议。</li>
+</ul>
+</li>
+</ol>
+
+
+<h4>委托</h4>
+
+<p>委托是一种对象，另一个类的对象会要求委托对象执行它的某些操作。</p>
+
+<h4>协议</h4>
+
+<ol>
+<li><p>正式协议<br/>
+ 是一个命名的方法列表。与非正式协议不同，正式协议要求显式地采用协议。采用协议的方法是在类的
+<code>@interface</code>声明中列出协议的名称。</p></li>
+<li><p>协议声明的格式:</p></li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>@protocol NSCoping
+</span><span class='line'>  
+</span><span class='line'>-(id)copyWithZone:(NsZone*) zone;</span></code></pre></td></tr></table></div></figure>
+
+
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">muyexi</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-08T21:13:10+08:00" pubdate data-updated="true">Apr 8<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/du-shu-bi-ji/'>读书笔记</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://muyexi.github.io/blog/2014/04/08/learn-objective-c-on-the-mac/" data-via="muyexi" data-counturl="http://muyexi.github.io/blog/2014/04/08/learn-objective-c-on-the-mac/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/04/08/be-friend-with-time/" title="Previous Post: 《和时间做朋友》读书笔记">&laquo; 《和时间做朋友》读书笔记</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/05/25/share-my-rss-subscriptions/" title="Next Post: Share My Rss Subscriptions">Share My Rss Subscriptions &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/05/25/share-my-rss-subscriptions/">Share My Rss Subscriptions</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/08/learn-objective-c-on-the-mac/">《Objective-C基础教程》读书笔记</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/08/be-friend-with-time/">《和时间做朋友》读书笔记</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character/">AFNetworking Parse JSON Unescaped Control Character</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index/">IllegalArgumentException Illegal Character in Query at Index</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/muyexi">@muyexi</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'muyexi',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>On Delicious</h1>
+  <div id="delicious"></div>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/muyexi?count=3&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+  <p><a href="http://delicious.com/muyexi">My Delicious Bookmarks &raquo;</a></p>
+</section>
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - muyexi -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'muyexi';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://muyexi.github.io/blog/2014/04/08/learn-objective-c-on-the-mac/';
+        var disqus_url = 'http://muyexi.github.io/blog/2014/04/08/learn-objective-c-on-the-mac/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

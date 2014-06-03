@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: iOS | muyexi's blog]]></title>
+  <link href="http://muyexi.github.io/blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://muyexi.github.io/"/>
+  <updated>2014-05-25T18:29:22+08:00</updated>
+  <id>http://muyexi.github.io/</id>
+  <author>
+    <name><![CDATA[muyexi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[AFNetworking Parse JSON Unescaped Control Character]]></title>
+    <link href="http://muyexi.github.io/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character/"/>
+    <updated>2014-04-08T21:07:16+08:00</updated>
+    <id>http://muyexi.github.io/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character</id>
+    <content type="html"><![CDATA[<p> 1.Add <a href="http://stackoverflow.com/a/13741652/2122622">chandan&rsquo;s method</a></p>
+
+<pre><code>removeUnescapedCharacter
+</code></pre>
+
+<p> to class</p>
+
+<pre><code>AFURLResponseSerialization
+</code></pre>
+
+<p> in AFNetworking 2.0.</p>
+
+<p> 2.Add</p>
+
+<pre><code>responseString = [self removeUnescapedCharacter:responseString];
+</code></pre>
+
+<p>under</p>
+
+<pre><code>NSString *responseString = [[NSString alloc] initWithData:data encoding:stringEncoding];
+</code></pre>
+
+<p>in method</p>
+
+<pre><code>- (id)responseObjectForResponse:(NSURLResponse *)response
+                       data:(NSData *)data
+                      error:(NSError *__autoreleasing *)error
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
