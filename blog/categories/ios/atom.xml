@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: iOS | muyexi's blog]]></title>
-  <link href="http://muyexi.github.io/blog/categories/ios/atom.xml" rel="self"/>
-  <link href="http://muyexi.github.io/"/>
-  <updated>2014-06-04T00:53:43+08:00</updated>
-  <id>http://muyexi.github.io/</id>
+  <link href="http://muyexi.im/blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://muyexi.im/"/>
+  <updated>2014-06-04T01:20:39+08:00</updated>
+  <id>http://muyexi.im/</id>
   <author>
     <name><![CDATA[muyexi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[AFNetworking Parse JSON Unescaped Control Character]]></title>
-    <link href="http://muyexi.github.io/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character/"/>
+    <link href="http://muyexi.im/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character/"/>
     <updated>2014-04-08T21:07:16+08:00</updated>
-    <id>http://muyexi.github.io/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character</id>
+    <id>http://muyexi.im/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character</id>
     <content type="html"><![CDATA[<p> 1.Add <a href="http://stackoverflow.com/a/13741652/2122622">chandan&rsquo;s method</a></p>
 
 <pre><code>removeUnescapedCharacter
