@@ -3,7 +3,7 @@ layout: post
 title: "Share My RSS Subscriptions"
 date: 2014-05-25 18:14:55 +0800
 comments: true
-categories:分享 
+categories: 分享 
 ---
 
 ###iOS开发
@@ -23,6 +23,7 @@ categories:分享
 * [txx's blog](http://blog.t-xx.me/atom.xml)
 * [objc.io](http://www.objc.io/feed.xml)
 * [Peter Steinberger](http://petersteinberger.com/atom.xml)
+
 ###前端开发
 * [腾讯ISUX - 社交用户体验设计 - Better Experien...](http://isd.tencent.com/?feed=rss2)
 * [WEB前端开发](http://www.css88.com/feed)
@@ -36,17 +37,20 @@ categories:分享
 * [CSS森林(CSS Forest)](http://www.cssforest.org/blog/index.php?atom=1)
 * [Paul Irish](http://feeds.feedburner.com/paul-irish)
 * [前端观察](http://www.qianduan.net/feed)
+
 ###Android开发
 * [Daniel Lew's Coding Thoughts](http://daniel-codes.blogspot.com/feeds/posts/default)
 * [Cyril Mottier](http://cyrilmottier.com/atom.xml)
 * [Chris  Banes](http://chris.banes.me/atom.xml)
 * [Android Developers Blog](http://android-developers.blogspot.com/atom.xml)
+
 ###程序员博客-英文
 * [Chen's blog](http://blog.binchen.org/rss.xml)
 * [Code Simplicity](http://www.codesimplicity.com/feed/atom/)
 * [Coding Horror](http://feeds.feedburner.com/codinghorror/)
 * [Christophe Coenraets](http://coenraets.org/blog/feed/)
 * [Joel on Software](http://www.joelonsoftware.com/rss.xml)
+
 ###程序员博客-中文
 * [Tinyfool的Blog](http://tiny4.org/blog/feed/)
 * [4G spaces](http://blog.youxu.info/feed/)
@@ -64,6 +68,7 @@ categories:分享
 * [iTimothy](http://www.xiaozhou.net/atom.xml)
 * [罗磊的独立博客](http://luolei.org/feed/)
 * [阳志平的网志-技术类](http://www.yangzhiping.com/tech/feed)
+
 ###其他博客
 * [通天塔](http://ttt.tt/feed/)
 * [罗永浩的博客](http://luoyonghao.blog.163.com/rss/)
