@@ -4,7 +4,7 @@
   <title><![CDATA[muyexi's blog]]></title>
   <link href="http://muyexi.im/atom.xml" rel="self"/>
   <link href="http://muyexi.im/"/>
-  <updated>2014-07-05T18:25:59+08:00</updated>
+  <updated>2014-07-13T18:58:22+08:00</updated>
   <id>http://muyexi.im/</id>
   <author>
     <name><![CDATA[muyexi]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Migrate Old OS X System to a New Mac]]></title>
+    <link href="http://muyexi.im/blog/2014/07/13/migrate-old-os-x-system-to-a-new-mac/"/>
+    <updated>2014-07-13T18:45:39+08:00</updated>
+    <id>http://muyexi.im/blog/2014/07/13/migrate-old-os-x-system-to-a-new-mac</id>
+    <content type="html"><![CDATA[<ol>
+<li>Use <a href="http://www.bombich.com/">Carbon Copy Cloner</a> to make a disk image.</li>
+<li><a href="http://help.bombich.com/kb/dmg-and-remote/restoring-from-a-disk-image">Using Migration Assistant to migrate data from a disk image</a></li>
+</ol>
+
+
+<p>PS: After migration,I found my Homebrew packages not work,you can refer this <a href="http://apple.stackexchange.com/questions/129991/packages-installed-with-homebrew-not-found-after-restore">link</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Share My RSS Subscriptions]]></title>
@@ -279,11 +294,29 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[AFNetworking Parse JSON Unescaped Control Character]]></title>
+    <title type="html"><![CDATA[IllegalArgumentException Illegal Character in Query at Index]]></title>
+    <link href="http://muyexi.im/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index/"/>
+    <updated>2014-04-08T21:05:10+08:00</updated>
+    <id>http://muyexi.im/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index</id>
+    <content type="html"><![CDATA[<p>检查下请求连接是否带有空格</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Afnetworking Parse Json Unescaped Control Character]]></title>
     <link href="http://muyexi.im/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character/"/>
-    <updated>2014-04-08T21:07:16+08:00</updated>
+    <updated>2014-04-08T00:00:00+08:00</updated>
     <id>http://muyexi.im/blog/2014/04/08/afnetworking-parse-json-unescaped-control-character</id>
-    <content type="html"><![CDATA[<p> 1.Add <a href="http://stackoverflow.com/a/13741652/2122622">chandan&rsquo;s method</a></p>
+    <content type="html"><![CDATA[<hr />
+
+<p>layout: post
+title: &ldquo;AFNetworking parse JSON Unescaped control character&rdquo;
+date: 2014-04-08 21:07:16 +0800
+comments: true</p>
+
+<h2>categories: iOS</h2>
+
+<p> 1.Add <a href="http://stackoverflow.com/a/13741652/2122622">chandan&rsquo;s method</a></p>
 
 <pre><code>removeUnescapedCharacter
 </code></pre>
@@ -311,15 +344,6 @@
                        data:(NSData *)data
                       error:(NSError *__autoreleasing *)error
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IllegalArgumentException Illegal Character in Query at Index]]></title>
-    <link href="http://muyexi.im/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index/"/>
-    <updated>2014-04-08T21:05:10+08:00</updated>
-    <id>http://muyexi.im/blog/2014/04/08/illegalargumentexception-illegal-character-in-query-at-index</id>
-    <content type="html"><![CDATA[<p>检查下请求连接是否带有空格</p>
 ]]></content>
   </entry>
   
